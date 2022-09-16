@@ -1,0 +1,11 @@
+manifest:
+  remotes:
+    - name: luantty2
+      url-base: https://github.com/luantty2
+  projects:
+    - name: zmk
+      remote: luantty2
+      revision: aaru-max17048
+      import: app/west.yml
+  self:
+    path: config
