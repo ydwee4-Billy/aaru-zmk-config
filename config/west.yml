@@ -5,7 +5,7 @@ manifest:
   projects:
     - name: zmk
       remote: luantty2
-      revision: aaru-max17048
+      revision: aaru-max17048-indicator
       import: app/west.yml
   self:
     path: config
